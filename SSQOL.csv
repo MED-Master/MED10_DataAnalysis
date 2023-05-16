@@ -1,0 +1,521 @@
+﻿id,user_id,timestamp,message,question,answer
+179,1,04/05/2023 10.36,Spørgsmål 1 - Intet besvær,1,5
+180,0,04/05/2023 10.36,"Du har svaret at du har: Intet besvær. 
+Dette indikerer, at du ikke har oplevet nogen vanskeligheder med at tilberede mad.",,
+181,1,04/05/2023 10.36,Spørgsmål 2 - Intet besvær,2,5
+182,0,04/05/2023 10.36,"Du har svaret at du har: Intet besvær. 
+Denne mulighed indikerer, at du ikke oplevede nogen problemer med at spise.",,
+183,1,04/05/2023 10.37,Hjæl,,
+184,0,04/05/2023 10.37,"Her er noget hjælp: Har du i løbet af den seneste uge oplevet nogle problemer, mens du tog dit tøj på?",,
+185,1,04/05/2023 10.38,Spørgsmål 3 - Intet besvær,3,5
+186,0,04/05/2023 10.38,"Du har svaret at du har: Intet besvær. 
+Denne mulighed indikerer, at du ikke oplevede nogen vanskeligheder med at klæde dig på.",,
+187,1,04/05/2023 10.38,Spørgsmål 4 - Intet besvær,4,5
+188,0,04/05/2023 10.38,"Du har svaret at du har: Intet besvær. 
+Dette indikerer, at du ikke oplevede nogen vanskeligheder med at tage et bad eller brusebad.",,
+189,0,04/05/2023 10.38,"Her er noget hjælp til det næste spørgsmål: I løbet af den sidste uge, da du gik på toilettet, har du oplevet nogen gener?",,
+190,1,04/05/2023 10.39,Spørgsmål 5 - Intet besvær,5,5
+191,0,04/05/2023 10.39,"Du har svaret at du har: Intet besvær. 
+Denne mulighed indikerer, at du ikke har oplevet problemer med at bruge toilettet.",,
+192,1,04/05/2023 10.39,Spørgsmål 6 - Intet besvær,6,5
+193,0,04/05/2023 10.39,"Du har svaret at du har: Intet besvær. 
+Du oplevede ingen problemer med at se fjernsynet.",,
+194,1,04/05/2023 10.39,Spørgsmål 7 - Intet besvær,7,5
+195,0,04/05/2023 10.39,"Du har svaret at du har: Intet besvær. 
+Du oplevede ingen vanskeligheder med at række ud efter ting på grund af dårligt syn.",,
+196,1,04/05/2023 10.39,Spørgsmål 8 - Intet besvær,8,5
+197,0,04/05/2023 10.39,"Du har svaret at du har: Intet besvær. 
+Denne mulighed angiver, at du ikke oplevede nogen problemer med at se tingene væk fra den ene side.",,
+198,1,04/05/2023 10.40,Spørgsmål 9 - Intet besvær,9,5
+199,0,04/05/2023 10.40,"Du har svaret at du har: Intet besvær. 
+Dette indikerer, at du ikke har oplevet nogen vanskeligheder med at tale.",,
+200,0,04/05/2023 10.40,"Her er noget hjælp til det næste spørgsmål: Kunne du i løbet af den seneste uge tale i telefon med andre, der forstår dig tydeligt?",,
+201,1,04/05/2023 10.40,Spørgsmål 10 - Intet besvær,10,5
+202,0,04/05/2023 10.40,"Du har svaret at du har: Intet besvær. 
+Du havde ikke problemer med at tale tydeligt nok til at bruge telefonen.",,
+203,1,04/05/2023 10.40,Spørgsmål 11 - Intet besvær,11,5
+204,0,04/05/2023 10.40,"Du har svaret at du har: Intet besvær. 
+Andre mennesker oplevede ingen vanskeligheder med at forstå, hvad du sagde.",,
+205,1,04/05/2023 10.41,Hjælp,,
+206,0,04/05/2023 10.41,"Her er noget hjælp: Var der i løbet af den sidste uge et tilfælde, hvor du ikke kunne komme i tanke om de rigtige ord at sige?",,
+207,1,04/05/2023 10.43,Spørgsmål 12 - Lidt besvær,12,4
+208,0,04/05/2023 10.43,"Du har svaret at du har: Lidt besvær. 
+Du kan opleve nogle mindre udfordringer med at finde de ord, du gerne vil sige, såsom lejlighedsvise vanskeligheder med at finde ord.",,
+209,1,04/05/2023 10.44,Hjælp,,
+210,0,04/05/2023 10.44,"Her er noget hjælp: Har du i løbet af den sidste uge været nødt til at gentage dine ord, fordi andre mennesker havde svært ved at forstå dig?",,
+211,1,04/05/2023 10.44,Spørgsmål 13 - Lidt besvær,13,4
+212,0,04/05/2023 10.44,"Du har svaret at du har: Lidt besvær. 
+Denne mulighed antyder, at du har oplevet nogle mindre udfordringer ved at gentage dig selv, såsom lejlighedsvis vanskeligheder med at udtale eller udtrykke.",,
+213,1,04/05/2023 10.45,Hjælp,,
+214,0,04/05/2023 10.45,"Her er noget hjælp: I løbet af den sidste uge, når du bevægede dig ude eller inde, havde du nogle problemer?",,
+215,1,04/05/2023 10.46,Spørgsmål 14 - Lidt besvær,14,4
+216,0,04/05/2023 10.46,"Du har svaret at du har: Lidt besvær. 
+Dit svar tyder på, at du har oplevet nogle mindre udfordringer ved at gå, såsom lettere problemer med balance eller koordination.",,
+217,0,04/05/2023 10.46,"Her er noget hjælp til det næste spørgsmål: Var der i løbet af den sidste uge et tidspunkt, hvor du bøjede dig eller rakte ud for at samle noget op og mistede balancen?",,
+218,1,04/05/2023 10.46,Spørgsmål 15 - En del besvær,15,3
+219,0,04/05/2023 10.46,"Du har svaret at du har: En del besvær. 
+Dette tyder på, at du oplevede mindre vanskeligheder med at opretholde din balance, når du bøjede dig eller rakte ud efter genstande.",,
+220,1,04/05/2023 10.47,Spørgsmål 16 - En del besvær,16,3
+221,0,04/05/2023 10.47,"Du har svaret at du har: En del besvær. 
+Dette tyder på, at du har oplevet mindre vanskeligheder med at gå op ad trapper, såsom lejlighedsvis ustabilitet eller træthed.",,
+222,1,04/05/2023 10.47,Spørgsmål 17 - En del besvær,17,3
+223,0,04/05/2023 10.47,"Du har svaret at du har: En del besvær. 
+Denne mulighed tyder på, at du oplevede mindre vanskeligheder med træthed eller udholdenhed, når du gik eller brugte kørestol.",,
+224,1,04/05/2023 10.47,Spørgsmål 18 - Lidt besvær,18,4
+225,0,04/05/2023 10.47,"Du har svaret at du har: Lidt besvær. 
+Dette tyder på, at du var i stand til at stå i længere perioder uden støtte, men oplevede noget ubehag eller ustabilitet.",,
+226,1,04/05/2023 10.47,Spørgsmål 19 - Lidt besvær,19,4
+227,0,04/05/2023 10.47,"Du har svaret at du har: Lidt besvær. 
+Denne mulighed antyder, at du kan komme ud af en stol uden besvær, men med et vist ubehag eller stivhed.",,
+228,0,04/05/2023 10.47,Her er noget hjælp til det næste spørgsmål: Var det i løbet af den sidste uge svært at følge med i alle dine huslige pligter?,,
+229,1,04/05/2023 10.47,Spørgsmål 20 - Lidt besvær,20,4
+230,0,04/05/2023 10.47,"Du har svaret at du har: Lidt besvær. 
+Denne mulighed foreslår, at du kan udføre dagligt arbejde rundt i huset med mindre besvær eller ubehag.",,
+231,1,04/05/2023 10.48,Spørgsmål 21 - Intet besvær,21,5
+232,0,04/05/2023 10.48,"Du har svaret at du har: Intet besvær. 
+Denne mulighed angiver, at du var i stand til komfortabelt at afslutte opgaver, som du startede uden problemer.",,
+233,1,04/05/2023 10.49,Evner,,
+234,0,04/05/2023 10.49,"Jeg kan hjælpe dig med følgende: 
+- Ændre et svar: ""ændre svar"".
+- Få hjælp til et spørgsmål: ""hjælp"".
+- Se alle dine svar: ""se svar"".
+- Hvordan skal forholde mig til spørgsmålene: ""form for svar"".
+- Se all RASA funktioner: ""evner"".",,
+235,1,04/05/2023 10.50,Form svar,,
+236,0,04/05/2023 10.50,"Du bør svare baseret på det gennemsnitlige besvær, du har haft i løbet af den seneste uge. Hvis der var en dag, hvor besværet var ekstremt og ikke hvad du normalt ville opleve, skal du se bort fra denne enkeltstående dag.",,
+237,0,04/05/2023 10.50,"Du bør svare baseret på din generelle tilstand. Det er ligegyldigt, om slagtilfælde IKKE er årsagen til et bestemt problem, for eksempel kan du også have problemer med gigt, hvilket gør det sværere for dig at gå.",,
+238,1,04/05/2023 10.51,Spørgsmål 22 - Lidt besvær,22,4
+239,0,04/05/2023 10.51,"Du har svaret at du har: Lidt besvær. 
+Denne mulighed antyder, at du er i stand til at udføre det meste af arbejdet med mindre besvær eller begrænsninger.",,
+240,1,04/05/2023 10.51,Spørgsmål 23 - Lidt besvær,23,4
+241,0,04/05/2023 10.51,"Du har svaret at du har: Lidt besvær. 
+Dette tyder på, at du kan skrive eller skrive med mindre besvær eller begrænsninger.",,
+242,0,04/05/2023 10.51,Her er noget hjælp til det næste spørgsmål: Har du i løbet af den sidste uge kæmpet for at tage dine sokker på?,,
+243,1,04/05/2023 10.51,Spørgsmål 24 - Intet besvær,24,5
+244,0,04/05/2023 10.51,"Du har svaret at du har: Intet besvær. 
+Dette tyder på, at du var i stand til at tage sokker på komfortabelt og uden besvær.",,
+245,1,04/05/2023 10.53,Spørgsmål 25 - Lidt besvær,25,4
+246,0,04/05/2023 10.53,"Du har svaret at du har: Lidt besvær. 
+Ifølge dit svar var du i stand til at trykke på knapper med mindre vanskeligheder eller begrænsninger.",,
+247,1,04/05/2023 10.54,Hjælp,,
+248,0,04/05/2023 10.54,"Her er noget hjælp: fx tog dig lang tid, krævede hjælp fra en anden",,
+249,1,04/05/2023 10.54,Spørgsmål 26 - Meget besvær,26,2
+250,0,04/05/2023 10.54,"Du har svaret at du har: Meget besvær. 
+Baseret på dit svar ser det ud til, at du havde betydelige problemer med at lyne en lynlås.",,
+251,1,04/05/2023 10.56,Spørgsmål 27 - Helt enig,27,1
+252,1,04/05/2023 10.56,Spørgsmål 28 - Delvist enig,28,2
+253,0,04/05/2023 10.56,"Du har svaret at du er: Delvist enig. 
+Dit svar tyder på, at du havde nogle problemer med at koncentrere dig, men det påvirkede ikke dit daglige liv væsentligt",,
+254,1,04/05/2023 10.57,Hjælp,,
+255,0,04/05/2023 10.57,"Her er noget hjælp: F.eks. du glemte, at din ven besøgte dig ugen før, kan du ikke huske, om du tog din medicin den dag",,
+256,1,04/05/2023 10.58,Spørgsmål 29 - Delvist enig,29,2
+257,0,04/05/2023 10.58,"Du har svaret at du er: Delvist enig. 
+Nogle gange glemte du ting, og det påvirkede dit daglige liv.",,
+258,0,04/05/2023 10.58,"Her er noget hjælp til det næste spørgsmål: fx dokumenter til at tage med til lægen, hvornår kommer venner på besøg",,
+259,1,04/05/2023 10.58,Spørgsmål 30 - Helt enig,30,1
+260,0,04/05/2023 10.58,"Du har svaret at du er: Helt enig. 
+Du havde betydeligt svært ved at huske ting og skulle skrive alt ned for at undgå at glemme vigtige begivenheder eller aftaler.",,
+261,1,04/05/2023 10.58,Spørgsmål 31 - Delvist enig,31,2
+262,0,04/05/2023 10.58,"Du har svaret at du er: Delvist enig. 
+Du havde sværere ved at kontrollere dine følelser",,
+263,1,04/05/2023 10.58,Spørgsmål 32 - Delvist enig,32,2
+264,0,04/05/2023 10.58,"Du har svaret at du er: Delvist enig. 
+Dette tyder på, at du har oplevet en vis utålmodighed med andre.",,
+265,1,04/05/2023 10.59,Spørgsmål 33 - Helt enig,33,1
+266,0,04/05/2023 10.59,"Du har svaret at du er: Helt enig. 
+Du oplevede betydelige ændringer i din personlighed.",,
+267,1,04/05/2023 10.59,Spørgsmål 34 - Helt enig,34,1
+268,0,04/05/2023 10.59,"Du har svaret at du er: Helt enig. 
+du følte, at din fremtid var dyster og kunne ikke forestille dig et positivt resultat.",,
+269,0,04/05/2023 10.59,"Her er noget hjælp til det næste spørgsmål: fx jeg følte mig for træt til at prøve at engagere mig med mine venner, jeg fandt ikke nogen aktivitet interessant/behagelig nok",,
+270,1,04/05/2023 11.00,Spørgsmål 35 - Delvist enig,35,2
+271,0,04/05/2023 11.00,"Du har svaret at du er: Delvist enig. 
+Du havde mindre interesse for socialt samvær og aktiviteter",,
+272,1,04/05/2023 11.00,Spørgsmål 36 - Delvist uenig,36,4
+273,0,04/05/2023 11.00,"Du har svaret at du er: Delvist uenig. 
+Du deltog i de fleste aktiviteter med din familie, men der var nogle, du måtte springe over",,
+274,1,04/05/2023 11.00,Spørgsmål 37 - Hverken enig eller uenig,37,3
+275,0,04/05/2023 11.00,"Du har svaret at du er: Hverken enig eller uenig. 
+Dette tyder på, at du ikke følte, at du var en byrde for din familie.",,
+276,1,04/05/2023 11.00,Spørgsmål 38 - Delvist enig,38,2
+277,0,04/05/2023 11.00,"Du har svaret at du er: Delvist enig. 
+Dit svar tyder på, at din fysiske tilstand har påvirket dit familieliv til en vis grad.",,
+278,1,04/05/2023 11.00,Spørgsmål 39 - Delvist enig,39,2
+279,0,04/05/2023 11.00,"Du har svaret at du er: Delvist enig. 
+Dette tyder på, at du er noget begrænset i forhold til at gå ud.",,
+280,0,04/05/2023 11.00,"Her er noget hjælp til det næste spørgsmål: F.eks. mistede jeg interessen for fiskeri, jeg har ikke så meget have som før, fordi jeg bliver så let træt",,
+281,1,04/05/2023 11.01,Spørgsmål 40 - Helt enig,40,1
+282,0,04/05/2023 11.01,"Du har svaret at du er: Helt enig. 
+Dette tyder på, at din evne til at deltage i hobbyer og rekreative aktiviteter er betydeligt begrænset på grund af fysiske eller følelsesmæssige begrænsninger.",,
+283,1,04/05/2023 11.01,Spørgsmål 41 - Hverken enig eller uenig,41,3
+284,0,04/05/2023 11.01,"Du har svaret at du er: Hverken enig eller uenig. 
+Du kunne nogle gange se dine venner.",,
+285,1,04/05/2023 11.02,Spørgsmål 42 - Hverken enig eller uenig,42,3
+286,0,04/05/2023 11.02,"Du har svaret at du er: Hverken enig eller uenig. 
+Du havde ikke et ønske om at have sex, eller det var ikke en prioritet for dig.",,
+287,1,04/05/2023 11.02,Hjælp,,
+288,0,04/05/2023 11.02,"Her er noget hjælp: fx følte jeg, at mit talehandicap gjorde, at jeg ikke kunne få nye venner, min forværrede mobilitet forhindrede mig i at tage bussen og besøge mine venner",,
+289,1,04/05/2023 11.03,Spørgsmål 43 - Delvist enig,43,2
+290,0,04/05/2023 11.03,"Du har svaret at du er: Delvist enig. 
+du var i stand til at deltage i sociale aktiviteter, men ikke så ofte, som du ville have foretrukket på grund af symptomer som træthed og angst.",,
+291,1,04/05/2023 11.03,Spørgsmål 44 - Delvist enig,44,2
+292,0,04/05/2023 11.03,"Du har svaret at du er: Delvist enig. 
+Baseret på dit svar tyder det på, at du er begyndt at undgå sociale begivenheder eller tage kontakt til mennesker.",,
+293,0,04/05/2023 11.03,"Her er noget hjælp til det næste spørgsmål: For eksempel at skulle acceptere hjælp fra andre i mange situationer, fik mig til at føle mig ubrugelig og dum",,
+294,1,04/05/2023 11.03,Spørgsmål 45 - Helt enig,45,1
+295,0,04/05/2023 11.03,"Du har svaret at du er: Helt enig. 
+Dette tyder på, at dine symptomer havde en væsentlig indflydelse på dit selvværd og din selvtillid.",,
+296,1,04/05/2023 11.04,Spørgsmål 46 - Delvist uenig,46,4
+297,0,04/05/2023 11.04,"Du har svaret at du er: Delvist uenig. 
+Dit svar tyder på, at du stadig var interesseret i mad og holdt en sund kost efter slagtilfældet.",,
+298,1,04/05/2023 11.04,Spørgsmål 47 - Delvist uenig,47,4
+299,0,04/05/2023 11.04,"Du har svaret at du er: Delvist uenig. 
+Dit svar tyder på, at du følte dig relativt vågen og energisk det meste af tiden.",,
+300,1,04/05/2023 11.04,Spørgsmål 48 - Delvist enig,48,2
+301,0,04/05/2023 11.04,"Du har svaret at du er: Delvist enig. 
+Baseret på dit svar ser det ud til, at du var nødt til at tage flere pauser i løbet af dagen for at hvile.",,
+302,0,04/05/2023 11.04,"Her er noget hjælp til det næste spørgsmål: Jeg havde f.eks. planlagt at slå min græsplæne, men jeg var nødt til at stoppe efter et par minutter og lade den stå til en anden dag",,
+303,1,04/05/2023 11.04,Spørgsmål 49 - Delvist uenig,49,4
+304,0,04/05/2023 11.04,"Du har svaret at du er: Delvist uenig. 
+Dit svar tyder på, at du sjældent var for træt til at gøre de ting, du gerne ville.",,
+305,0,04/05/2023 11.04,"Tillykke du har gennemført spørgeskemaet. Tak for din tid!
+Du kan nu se dine svar ved at skrive på 'Se alle svar'",,
+357,3,04/05/2023 13.10,Spørgsmål 1 - En del besvær,1,3
+358,0,04/05/2023 13.10,"Du har svaret at du har: En del besvær. 
+Dette tyder på, at du kan have mindre vanskeligheder med at tilberede mad, muligvis på grund af milde fysiske begrænsninger eller vanskeligheder med multi-tasking.",,
+359,3,04/05/2023 13.12,Hjælp,,
+360,0,04/05/2023 13.12,"Her er noget hjælp: fx skære mad, tygge, synke",,
+361,3,04/05/2023 13.13,Spørgsmål 2 - En del besvær,2,3
+362,0,04/05/2023 13.13,"Du har svaret at du har: En del besvær. 
+Denne mulighed tyder på, at du har oplevet mindre problemer med at spise. Dette kan indikere mindre fysiske begrænsninger eller vanskeligheder med at bruge redskaber.",,
+363,3,04/05/2023 13.14,Spørgsmål 3 - Lidt besvær,3,4
+364,0,04/05/2023 13.14,"Du har svaret at du har: Lidt besvær. 
+Denne mulighed antyder, at du kan opleve nogle mindre udfordringer med at klæde dig på, såsom træthed eller mild svaghed.",,
+365,3,04/05/2023 13.14,Spørgsmål 4 - En del besvær,4,3
+366,0,04/05/2023 13.14,"Du har svaret at du har: En del besvær. 
+Dette tyder på, at du har oplevet mindre vanskeligheder med at tage et bad eller brusebad, muligvis på grund af milde fysiske begrænsninger eller vanskeligheder med multi-tasking.",,
+367,0,04/05/2023 13.14,"Her er noget hjælp til det næste spørgsmål: I løbet af den sidste uge, da du gik på toilettet, har du oplevet nogen gener?",,
+368,3,04/05/2023 13.15,Spørgsmål 5 - Meget besvær,5,2
+369,0,04/05/2023 13.15,"Du har svaret at du har: Meget besvær. 
+Denne mulighed tyder på, at du har haft betydelige vanskeligheder med at bruge toilettet, muligvis på grund af fysiske eller kognitive begrænsninger.",,
+370,3,04/05/2023 13.15,Spørgsmål 6 - Intet besvær,6,5
+371,0,04/05/2023 13.15,"Du har svaret at du har: Intet besvær. 
+Du oplevede ingen problemer med at se fjernsynet.",,
+372,3,04/05/2023 13.16,Spørgsmål 7 - Intet besvær,7,5
+373,0,04/05/2023 13.16,"Du har svaret at du har: Intet besvær. 
+Du oplevede ingen vanskeligheder med at række ud efter ting på grund af dårligt syn.",,
+374,3,04/05/2023 13.16,Spørgsmål 8 - Intet besvær,8,5
+375,0,04/05/2023 13.16,"Du har svaret at du har: Intet besvær. 
+Denne mulighed angiver, at du ikke oplevede nogen problemer med at se tingene væk fra den ene side.",,
+376,3,04/05/2023 13.17,Spørgsmål 9 - Lidt besvær,9,4
+377,0,04/05/2023 13.17,"Du har svaret at du har: Lidt besvær. 
+Denne mulighed antyder, at du har oplevet nogle mindre udfordringer med at tale, såsom lejlighedsvis stammen eller let slør i ord.",,
+378,0,04/05/2023 13.17,"Her er noget hjælp til det næste spørgsmål: Kunne du i løbet af den seneste uge tale i telefon med andre, der forstår dig tydeligt?",,
+379,3,04/05/2023 13.17,Spørgsmål 10 - En del besvær,10,3
+380,0,04/05/2023 13.17,"Du har svaret at du har: En del besvær. 
+Du oplevede mindre vanskeligheder med at tale tydeligt nok til at bruge telefonen.",,
+381,3,04/05/2023 13.17,Spørgsmål 11 - En del besvær,11,3
+382,0,04/05/2023 13.17,"Du har svaret at du har: En del besvær. 
+Andre mennesker oplevede mindre vanskeligheder med at forstå, hvad du sagde.",,
+383,3,04/05/2023 13.18,Spørgsmål 12 - En del besvær,12,3
+384,0,04/05/2023 13.18,"Du har svaret at du har: En del besvær. 
+Du kan opleve mindre vanskeligheder med at finde de ord, du vil sige.",,
+385,3,04/05/2023 13.18,Spørgsmål 13 - En del besvær,13,3
+386,0,04/05/2023 13.18,"Du har svaret at du har: En del besvær. 
+Denne mulighed antyder, at du oplevede mindre vanskeligheder med at gentage dig selv.",,
+387,3,04/05/2023 13.19,Spørgsmål 14 - Meget besvær,14,2
+388,0,04/05/2023 13.19,"Du har svaret at du har: Meget besvær. 
+Dit svar tyder på, at du stod over for betydelige udfordringer med at gå.",,
+389,0,04/05/2023 13.19,"Her er noget hjælp til det næste spørgsmål: Var der i løbet af den sidste uge et tidspunkt, hvor du bøjede dig eller rakte ud for at samle noget op og mistede balancen?",,
+390,3,04/05/2023 13.20,Spørgsmål 15 - En del besvær,15,3
+391,0,04/05/2023 13.20,"Du har svaret at du har: En del besvær. 
+Dette tyder på, at du oplevede mindre vanskeligheder med at opretholde din balance, når du bøjede dig eller rakte ud efter genstande.",,
+392,3,04/05/2023 13.20,Spørgsmål 16 - Meget besvær,16,2
+393,0,04/05/2023 13.20,"Du har svaret at du har: Meget besvær. 
+Dette tyder på, at du stod over for betydelige udfordringer med at gå på trapper.",,
+394,3,04/05/2023 13.21,Spørgsmål 17 - Intet besvær,17,5
+395,0,04/05/2023 13.21,"Du har svaret at du har: Intet besvær. 
+Denne mulighed indikerer, at du ikke oplevede nogen vanskeligheder med træthed eller udholdenhed, når du gik eller brugte kørestol.",,
+396,3,04/05/2023 13.22,Spørgsmål 18 - En del besvær,18,3
+397,0,04/05/2023 13.22,"Du har svaret at du har: En del besvær. 
+Det tyder på, at du kunne stå i korte perioder uden støtte, men havde svært ved at holde balancen.",,
+398,3,04/05/2023 13.22,Spørgsmål 19 - Lidt besvær,19,4
+399,0,04/05/2023 13.22,"Du har svaret at du har: Lidt besvær. 
+Denne mulighed antyder, at du kan komme ud af en stol uden besvær, men med et vist ubehag eller stivhed.",,
+400,0,04/05/2023 13.22,Her er noget hjælp til det næste spørgsmål: Var det i løbet af den sidste uge svært at følge med i alle dine huslige pligter?,,
+401,3,04/05/2023 13.22,Spørgsmål 20 - En del besvær,20,3
+402,0,04/05/2023 13.22,"Du har svaret at du har: En del besvær. 
+Denne mulighed antyder, at du kan udføre dagligt arbejde rundt om i huset, men med lidt besvær eller ubehag.",,
+403,3,04/05/2023 13.23,Spørgsmål 21 - En del besvær,21,3
+404,0,04/05/2023 13.23,"Du har svaret at du har: En del besvær. 
+Denne mulighed antyder, at du var i stand til at afslutte opgaver, som du startede, men med nogle vanskeligheder eller forsinkelser.",,
+405,3,04/05/2023 13.23,Spørgsmål 22 - Meget besvær,22,2
+406,0,04/05/2023 13.23,"Du har svaret at du har: Meget besvær. 
+Denne mulighed antyder, at du har brug for hjælp til at udføre opgaver.",,
+407,3,04/05/2023 13.24,Spørgsmål 23 - Meget besvær,23,2
+408,0,04/05/2023 13.24,"Du har svaret at du har: Meget besvær. 
+Dette tyder på, at du havde betydelige problemer med at skrive eller skrive.",,
+409,0,04/05/2023 13.24,Her er noget hjælp til det næste spørgsmål: Har du i løbet af den sidste uge kæmpet for at tage dine sokker på?,,
+410,3,04/05/2023 13.24,Spørgsmål 24 - Kunne slet ikke,24,1
+411,0,04/05/2023 13.24,"Du har svaret at du har: Kunne slet ikke. 
+Dette tyder på, at du ikke var i stand til at tage sokker på.",,
+412,3,04/05/2023 13.26,Evner,,
+413,0,04/05/2023 13.26,"Jeg kan hjælpe dig med følgende: 
+- Ændre et svar: ""ændre svar"".
+- Få hjælp til et spørgsmål: ""hjælp"".
+- Se alle dine svar: ""se svar"".
+- Hvordan skal forholde mig til spørgsmålene: ""form for svar"".
+- Se all RASA funktioner: ""evner"".",,
+414,3,04/05/2023 13.27,Spørgsmål 25 - Meget besvær,25,2
+415,0,04/05/2023 13.27,"Du har svaret at du har: Meget besvær. 
+Dit svar indikerer, at du havde betydelige problemer med at knappe knapper.",,
+416,3,04/05/2023 13.27,Spørgsmål 26 - En del besvær,26,3
+417,0,04/05/2023 13.27,"Du har svaret at du har: En del besvær. 
+Baseret på dit svar ser det ud til, at du var i stand til at lyne en lynlås, men med nogle vanskeligheder eller begrænsninger.",,
+418,3,04/05/2023 13.28,Spørgsmål 27 - Meget besvær,27,2
+419,0,04/05/2023 13.28,"Du har svaret at du har: Meget besvær. 
+Dit svar indikerer, at det er ret svært for dig at åbne en krukke.",,
+420,3,04/05/2023 13.28,Spørgsmål 28 - Delvist enig,28,2
+421,0,04/05/2023 13.28,"Du har svaret at du er: Delvist enig. 
+Dit svar tyder på, at du havde nogle problemer med at koncentrere dig, men det påvirkede ikke dit daglige liv væsentligt",,
+422,3,04/05/2023 13.29,Spørgsmål 29 - Helt enig,29,1
+423,0,04/05/2023 13.29,"Du har svaret at du er: Helt enig. 
+Du har ofte glemt ting, selv vigtige begivenheder eller aftaler.",,
+424,0,04/05/2023 13.29,"Her er noget hjælp til det næste spørgsmål: Var der i løbet af den sidste uge et tilfælde, hvor du skulle skrive noget ned, fordi du vidste, at du sandsynligvis ville glemme det?",,
+425,3,04/05/2023 13.30,Spørgsmål 30 - Helt enig,30,1
+426,0,04/05/2023 13.30,"Du har svaret at du er: Helt enig. 
+Du havde betydeligt svært ved at huske ting og skulle skrive alt ned for at undgå at glemme vigtige begivenheder eller aftaler.",,
+427,3,04/05/2023 13.31,Spørgsmål 31 - Helt enig,31,1
+428,0,04/05/2023 13.31,"Du har svaret at du er: Helt enig. 
+du havde hyppige følelsesmæssige udbrud og kunne ikke kontrollere dine følelser.",,
+429,3,04/05/2023 13.32,Spørgsmål 32 - Helt enig,32,1
+430,0,04/05/2023 13.32,"Du har svaret at du er: Helt enig. 
+Dette tyder på, at du har oplevet betydelig utålmodighed med andre.",,
+431,3,04/05/2023 13.33,Hjælp,,
+432,0,04/05/2023 13.33,"Her er noget hjælp: Følte du i løbet af den sidste uge, at du ikke var dig selv?",,
+433,3,04/05/2023 13.34,Spørgsmål 33 - Delvist enig,33,2
+434,0,04/05/2023 13.34,"Du har svaret at du er: Delvist enig. 
+Du oplevede nogle ændringer i din personlighed.",,
+435,3,04/05/2023 13.36,Spørgsmål 34 - Helt enig,34,1
+436,0,04/05/2023 13.36,"Du har svaret at du er: Helt enig. 
+du følte, at din fremtid var dyster og kunne ikke forestille dig et positivt resultat.",,
+437,0,04/05/2023 13.36,"Her er noget hjælp til det næste spørgsmål: løbet af den sidste uge, var der et tidspunkt, hvor du var ligeglad med nogen eller noget, der skete omkring dig?",,
+438,3,04/05/2023 13.36,Spørgsmål 35 - Delvist uenig,35,4
+439,0,04/05/2023 13.36,"Du har svaret at du er: Delvist uenig. 
+Du var stadig interesseret i at tilbringe tid med mennesker og gøre ting, du kunne lide.",,
+440,3,04/05/2023 13.38,Spørgsmål 36 - Helt enig,36,1
+441,0,04/05/2023 13.38,"Du har svaret at du er: Helt enig. 
+Du undgik sjove aktiviteter med din familie og havde ikke lyst til at deltage i dem.",,
+442,3,04/05/2023 13.39,Spørgsmål 37 - Helt enig,37,1
+443,0,04/05/2023 13.39,"Du har svaret at du er: Helt enig. 
+Dette tyder på, at du ofte følte dig som en byrde for din familie.",,
+444,3,04/05/2023 13.39,Spørgsmål 38 - Helt enig,38,1
+445,0,04/05/2023 13.39,"Du har svaret at du er: Helt enig. 
+Dit svar tyder på, at din fysiske tilstand har haft en væsentlig indflydelse på dit familieliv.",,
+446,3,04/05/2023 13.40,Spørgsmål 39 - Helt enig,39,1
+447,0,04/05/2023 13.40,"Du har svaret at du er: Helt enig. 
+Dette tyder på, at dine fysiske eller følelsesmæssige begrænsninger som følge af slagtilfældet i væsentlig grad påvirker din evne til at gå ud.",,
+448,0,04/05/2023 13.40,"Her er noget hjælp til det næste spørgsmål: Synes du i løbet af den seneste uge, at du har brugt nok tid på at udføre dine hobbyer og yndlingsaktiviteter?",,
+449,3,04/05/2023 13.41,Spørgsmål 40 - Helt enig,40,1
+450,0,04/05/2023 13.41,"Du har svaret at du er: Helt enig. 
+Dette tyder på, at din evne til at deltage i hobbyer og rekreative aktiviteter er betydeligt begrænset på grund af fysiske eller følelsesmæssige begrænsninger.",,
+451,3,04/05/2023 13.43,Spørgsmål 41 - Helt uenig,41,5
+452,0,04/05/2023 13.43,"Du har svaret at du er: Helt uenig. 
+Du var i stand til at se dine venner, så ofte du ville.",,
+453,3,04/05/2023 13.44,Spørgsmål 42 - Helt enig,42,1
+454,0,04/05/2023 13.44,"Du har svaret at du er: Helt enig. 
+Dine fysiske begrænsninger eller andre problemer gjorde det svært for dig at deltage i seksuel aktivitet.",,
+455,3,04/05/2023 13.45,Spørgsmål 43 - Helt enig,43,1
+456,0,04/05/2023 13.45,"Du har svaret at du er: Helt enig. 
+Dette tyder på, at dine fysiske begrænsninger har gjort det udfordrende for dig at deltage i sociale aktiviteter eller interagere med andre.",,
+457,3,04/05/2023 13.46,Spørgsmål 44 - Delvist uenig,44,4
+458,0,04/05/2023 13.46,"Du har svaret at du er: Delvist uenig. 
+Baseret på dit svar tyder det på, at du har formået at bevare dine sociale forbindelser og deltage i sociale arrangementer.",,
+459,0,04/05/2023 13.46,Her er noget hjælp til det næste spørgsmål: Har du i løbet af den seneste uge haft problemer med at undervurdere dig selv eller ikke tro på dine egne evner?,,
+460,3,04/05/2023 13.46,Spørgsmål 45 - Helt enig,45,1
+461,0,04/05/2023 13.46,"Du har svaret at du er: Helt enig. 
+Dette tyder på, at dine symptomer havde en væsentlig indflydelse på dit selvværd og din selvtillid.",,
+462,3,04/05/2023 13.46,Spørgsmål 47 - Helt enig,47,1
+463,0,04/05/2023 13.46,"Du har svaret at du er: Helt enig. 
+Dette tyder på, at du oplevede et højt niveau af træthed og udmattelse.",,
+464,3,04/05/2023 13.46,Spørgsmål 46 - Helt uenig,46,5
+465,0,04/05/2023 13.46,"Du har svaret at du er: Helt uenig. 
+Dette tyder på, at din appetit ikke blev påvirket, og at du opretholdt dine normale spisevaner.",,
+466,3,04/05/2023 13.47,Spørgsmål 48 - Helt enig,48,1
+467,0,04/05/2023 13.47,"Du har svaret at du er: Helt enig. 
+Dette tyder på, at du var nødt til at hvile ofte i løbet af dagen på grund af udmattelse eller andre fysiske begrænsninger.",,
+468,0,04/05/2023 13.47,"Her er noget hjælp til det næste spørgsmål: Har du i løbet af den seneste uge haft svært ved at udføre de opgaver/aktiviteter, du havde sat dig selv?",,
+469,3,04/05/2023 13.47,Spørgsmål 49 - Delvist enig,49,2
+470,0,04/05/2023 13.47,"Du har svaret at du er: Delvist enig. 
+Dit svar tyder på, at du oplevede en vis træthed, der påvirkede din evne til at engagere dig i de aktiviteter, du ønskede at gøre.",,
+471,0,04/05/2023 13.47,"Tillykke du har gennemført spørgeskemaet. Tak for din tid!
+Du kan nu se dine svar ved at skrive på 'Se alle svar'",,
+18,4,09/05/2023 13.10,Spørgsmål 1 - Intet besvær,1,5
+19,0,09/05/2023 13.10,"Du har svaret at du har: Intet besvær. 
+Dette indikerer, at du ikke har oplevet nogen vanskeligheder med at tilberede mad.",,
+20,4,09/05/2023 13.11,Spørgsmål 2 - Intet besvær,2,5
+21,0,09/05/2023 13.11,"Du har svaret at du har: Intet besvær. 
+Denne mulighed indikerer, at du ikke oplevede nogen problemer med at spise.",,
+22,4,09/05/2023 13.12,Spørgsmål 3 - Intet besvær,3,5
+23,0,09/05/2023 13.12,"Du har svaret at du har: Intet besvær. 
+Denne mulighed indikerer, at du ikke oplevede nogen vanskeligheder med at klæde dig på.",,
+24,4,09/05/2023 13.13,Spørgsmål 4 - Lidt besvær,4,4
+25,0,09/05/2023 13.13,"Du har svaret at du har: Lidt besvær. 
+Dette tyder på, at du oplevede nogle mindre udfordringer ved at tage et bad eller brusebad, såsom træthed eller mild svaghed.",,
+26,0,09/05/2023 13.13,"Her er noget hjælp til det næste spørgsmål: I løbet af den sidste uge, da du gik på toilettet, har du oplevet nogen gener?",,
+27,4,09/05/2023 13.13,Spørgsmål 5 - Intet besvær,5,5
+28,0,09/05/2023 13.13,"Du har svaret at du har: Intet besvær. 
+Denne mulighed indikerer, at du ikke har oplevet problemer med at bruge toilettet.",,
+29,4,09/05/2023 13.13,Spørgsmål 6 - Intet besvær,6,5
+30,0,09/05/2023 13.13,"Du har svaret at du har: Intet besvær. 
+Du oplevede ingen problemer med at se fjernsynet.",,
+31,4,09/05/2023 13.13,Spørgsmål 7 - Lidt besvær,7,4
+32,0,09/05/2023 13.13,"Du har svaret at du har: Lidt besvær. 
+Du har måske oplevet nogle mindre udfordringer med at række ud efter ting, såsom træthed eller mild visuel belastning.",,
+33,4,09/05/2023 13.13,Spørgsmål 8 - Lidt besvær,8,4
+34,0,09/05/2023 13.13,"Du har svaret at du har: Lidt besvær. 
+Denne mulighed antyder, at du oplevede nogle mindre udfordringer med at se tingene væk fra den ene side, såsom træthed eller mild visuel belastning.",,
+35,4,09/05/2023 13.14,Spørgsmål 9 - Lidt besvær,9,4
+36,0,09/05/2023 13.14,"Du har svaret at du har: Lidt besvær. 
+Denne mulighed antyder, at du har oplevet nogle mindre udfordringer med at tale, såsom lejlighedsvis stammen eller let slør i ord.",,
+37,0,09/05/2023 13.14,"Her er noget hjælp til det næste spørgsmål: Kunne du i løbet af den seneste uge tale i telefon med andre, der forstår dig tydeligt?",,
+38,4,09/05/2023 13.14,Spørgsmål 10 - Intet besvær,10,5
+39,0,09/05/2023 13.14,"Du har svaret at du har: Intet besvær. 
+Du havde ikke problemer med at tale tydeligt nok til at bruge telefonen.",,
+40,4,09/05/2023 13.15,Hjælp ,,
+41,0,09/05/2023 13.15,"Her er noget hjælp: Har du i løbet af den seneste uge haft problemer med at udtrykke dig til andre, så de forstod dig?",,
+42,4,09/05/2023 13.16,Hjælp ,,
+43,0,09/05/2023 13.16,"Her er noget hjælp: Har du i løbet af den seneste uge haft problemer med at udtrykke dig til andre, så de forstod dig?",,
+44,4,09/05/2023 13.17,Spørgsmål 11 - Intet besvær,11,5
+45,0,09/05/2023 13.17,"Du har svaret at du har: Intet besvær. 
+Andre mennesker oplevede ingen vanskeligheder med at forstå, hvad du sagde.",,
+46,4,09/05/2023 13.17,Spørgsmål 12 - Lidt besvær,12,4
+47,0,09/05/2023 13.17,"Du har svaret at du har: Lidt besvær. 
+Du kan opleve nogle mindre udfordringer med at finde de ord, du gerne vil sige, såsom lejlighedsvise vanskeligheder med at finde ord.",,
+48,4,09/05/2023 13.18,Spørgsmål 13 - En del besvær,13,3
+49,0,09/05/2023 13.18,"Du har svaret at du har: En del besvær. 
+Denne mulighed antyder, at du oplevede mindre vanskeligheder med at gentage dig selv.",,
+50,4,09/05/2023 13.19,Evner ,,
+51,0,09/05/2023 13.19,"Jeg kan hjælpe dig med følgende: 
+- Ændre et svar: ""ændre svar"".
+- Få hjælp til et spørgsmål: ""hjælp"".
+- Se alle dine svar: ""se svar"".
+- Hvordan skal forholde mig til spørgsmålene: ""form for svar"".
+- Se all RASA funktioner: ""evner"".",,
+52,4,09/05/2023 13.20,Form,,
+53,0,09/05/2023 13.20,"Du bør svare baseret på det gennemsnitlige besvær, du har haft i løbet af den seneste uge. Hvis der var en dag, hvor besværet var ekstremt og ikke hvad du normalt ville opleve, skal du se bort fra denne enkeltstående dag.",,
+54,0,09/05/2023 13.20,"Du bør svare baseret på din generelle tilstand. Det er ligegyldigt, om slagtilfælde IKKE er årsagen til et bestemt problem, for eksempel kan du også have problemer med gigt, hvilket gør det sværere for dig at gå.",,
+55,4,09/05/2023 13.21,Spørgsmål 15 - En del besvær,15,3
+56,0,09/05/2023 13.21,"Du har svaret at du har: En del besvær. 
+Dette tyder på, at du oplevede mindre vanskeligheder med at opretholde din balance, når du bøjede dig eller rakte ud efter genstande.",,
+57,4,09/05/2023 13.21,Spørgsmål 16 - En del besvær,16,3
+58,0,09/05/2023 13.21,"Du har svaret at du har: En del besvær. 
+Dette tyder på, at du har oplevet mindre vanskeligheder med at gå op ad trapper, såsom lejlighedsvis ustabilitet eller træthed.",,
+59,4,09/05/2023 13.22,Spørgsmål 17 - Lidt besvær,17,4
+60,0,09/05/2023 13.22,"Du har svaret at du har: Lidt besvær. 
+Denne mulighed antyder, at du oplevede nogle mindre udfordringer med træthed eller udholdenhed, når du gik eller brugte kørestol.",,
+61,4,09/05/2023 13.22,Spørgsmål 18 - Lidt besvær,18,4
+62,0,09/05/2023 13.22,"Du har svaret at du har: Lidt besvær. 
+Dette tyder på, at du var i stand til at stå i længere perioder uden støtte, men oplevede noget ubehag eller ustabilitet.",,
+63,4,09/05/2023 13.22,Spørgsmål 19 - Lidt besvær,19,4
+64,0,09/05/2023 13.22,"Du har svaret at du har: Lidt besvær. 
+Denne mulighed antyder, at du kan komme ud af en stol uden besvær, men med et vist ubehag eller stivhed.",,
+65,0,09/05/2023 13.22,Her er noget hjælp til det næste spørgsmål: Var det i løbet af den sidste uge svært at følge med i alle dine huslige pligter?,,
+66,4,09/05/2023 13.22,Spørgsmål 20 - En del besvær,20,3
+67,0,09/05/2023 13.22,"Du har svaret at du har: En del besvær. 
+Denne mulighed antyder, at du kan udføre dagligt arbejde rundt om i huset, men med lidt besvær eller ubehag.",,
+68,4,09/05/2023 13.23,Spørgsmål 21 - Meget besvær,21,2
+69,0,09/05/2023 13.23,"Du har svaret at du har: Meget besvær. 
+Denne mulighed antyder, at du havde betydelige vanskeligheder med at afslutte opgaver, du startede, og havde brug for hjælp til at fuldføre opgaver.",,
+70,4,09/05/2023 13.23,Spørgsmål 22 - Lidt besvær,22,4
+71,0,09/05/2023 13.23,"Du har svaret at du har: Lidt besvær. 
+Denne mulighed antyder, at du er i stand til at udføre det meste af arbejdet med mindre besvær eller begrænsninger.",,
+72,4,09/05/2023 13.24,Spørgsmål 23 - En del besvær,23,3
+73,0,09/05/2023 13.24,"Du har svaret at du har: En del besvær. 
+Dette tyder på, at du kan skrive eller skrive, men med nogle vanskeligheder eller begrænsninger.",,
+74,0,09/05/2023 13.24,Her er noget hjælp til det næste spørgsmål: Har du i løbet af den sidste uge kæmpet for at tage dine sokker på?,,
+75,4,09/05/2023 13.24,Spørgsmål 24 - Meget besvær,24,2
+76,0,09/05/2023 13.24,"Du har svaret at du har: Meget besvær. 
+Dette tyder på, at du havde betydelige problemer med at tage sokker på.",,
+77,4,09/05/2023 13.26,Spørgsmål 25 - Lidt besvær,25,4
+78,0,09/05/2023 13.26,"Du har svaret at du har: Lidt besvær. 
+Ifølge dit svar var du i stand til at trykke på knapper med mindre vanskeligheder eller begrænsninger.",,
+79,4,09/05/2023 13.26,Spørgsmål 26 - Intet besvær,26,5
+80,0,09/05/2023 13.26,"Du har svaret at du har: Intet besvær. 
+Baseret på dit svar ser det ud til, at du var i stand til at lyne en lynlås komfortabelt og uden besvær.",,
+81,4,09/05/2023 13.27,Spørgsmål 27 - Intet besvær,27,5
+82,0,09/05/2023 13.27,"Du har svaret at du har: Intet besvær. 
+Dit svar antyder, at du er i stand til at åbne en krukke komfortabelt og uden besvær.",,
+83,4,09/05/2023 13.27,Spørgsmål 29 - Helt enig,29,1
+84,0,09/05/2023 13.27,"Du har svaret at du er: Helt enig. 
+Du har ofte glemt ting, selv vigtige begivenheder eller aftaler.",,
+85,0,09/05/2023 13.27,"Her er noget hjælp til det næste spørgsmål: fx dokumenter til at tage med til lægen, hvornår kommer venner på besøg",,
+86,4,09/05/2023 13.27,Spørgsmål 28 - Delvist enig,28,2
+87,0,09/05/2023 13.27,"Du har svaret at du er: Delvist enig. 
+Dit svar tyder på, at du havde nogle problemer med at koncentrere dig, men det påvirkede ikke dit daglige liv væsentligt",,
+88,4,09/05/2023 13.27,Spørgsmål 30 - Helt enig,30,1
+89,0,09/05/2023 13.27,"Du har svaret at du er: Helt enig. 
+Du havde betydeligt svært ved at huske ting og skulle skrive alt ned for at undgå at glemme vigtige begivenheder eller aftaler.",,
+90,4,09/05/2023 13.28,Spørgsmål 31 - Helt uenig,31,5
+91,0,09/05/2023 13.28,"Du har svaret at du er: Helt uenig. 
+Du havde ingen problemer med at kontrollere dine følelser efter slagtilfældet.",,
+92,4,09/05/2023 13.28,Spørgsmål 32 - Helt uenig,32,5
+93,0,09/05/2023 13.28,"Du har svaret at du er: Helt uenig. 
+Dette tyder på, at du ikke oplevede nogen utålmodighed med andre.",,
+94,4,09/05/2023 13.28,Spørgsmål 33 - Helt enig,33,1
+95,0,09/05/2023 13.28,"Du har svaret at du er: Helt enig. 
+Du oplevede betydelige ændringer i din personlighed.",,
+96,4,09/05/2023 13.30,Spørgsmål 34 - Helt uenig,34,5
+97,0,09/05/2023 13.30,"Du har svaret at du er: Helt uenig. 
+du har aldrig følt dig modløs over din fremtid.",,
+98,0,09/05/2023 13.30,"Her er noget hjælp til det næste spørgsmål: fx jeg følte mig for træt til at prøve at engagere mig med mine venner, jeg fandt ikke nogen aktivitet interessant/behagelig nok",,
+99,4,09/05/2023 13.31,Spørgsmål 35 - Delvist uenig,35,4
+100,0,09/05/2023 13.31,"Du har svaret at du er: Delvist uenig. 
+Du var stadig interesseret i at tilbringe tid med mennesker og gøre ting, du kunne lide.",,
+101,4,09/05/2023 13.31,Spørgsmål 36 - Delvist enig,36,2
+102,0,09/05/2023 13.31,"Du har svaret at du er: Delvist enig. 
+Du deltog i nogle aktiviteter, men der var mange, du undgik",,
+103,4,09/05/2023 13.31,Spørgsmål 37 - Hverken enig eller uenig,37,3
+104,0,09/05/2023 13.31,"Du har svaret at du er: Hverken enig eller uenig. 
+Dette tyder på, at du ikke følte, at du var en byrde for din familie.",,
+105,4,09/05/2023 13.32,Spørgsmål 38 - Delvist uenig,38,4
+106,0,09/05/2023 13.32,"Du har svaret at du er: Delvist uenig. 
+Dit svar antyder, at din fysiske tilstand kun har en mindre indflydelse på dit familieliv.",,
+107,4,09/05/2023 13.32,Spørgsmål 39 - Delvist enig,39,2
+108,0,09/05/2023 13.32,"Du har svaret at du er: Delvist enig. 
+Dette tyder på, at du er noget begrænset i forhold til at gå ud.",,
+109,0,09/05/2023 13.32,"Her er noget hjælp til det næste spørgsmål: F.eks. mistede jeg interessen for fiskeri, jeg har ikke så meget have som før, fordi jeg bliver så let træt",,
+110,4,09/05/2023 13.33,Spørgsmål 40 - Helt enig,40,1
+111,0,09/05/2023 13.33,"Du har svaret at du er: Helt enig. 
+Dette tyder på, at din evne til at deltage i hobbyer og rekreative aktiviteter er betydeligt begrænset på grund af fysiske eller følelsesmæssige begrænsninger.",,
+112,4,09/05/2023 13.33,Spørgsmål 41 - Helt uenig,41,5
+113,0,09/05/2023 13.33,"Du har svaret at du er: Helt uenig. 
+Du var i stand til at se dine venner, så ofte du ville.",,
+114,4,09/05/2023 13.34,Spørgsmål 42 - Helt uenig,42,5
+115,0,09/05/2023 13.34,"Du har svaret at du er: Helt uenig. 
+Du var i stand til at have sex så ofte du ville, og du oplevede ingen begrænsninger eller vanskeligheder ved at gøre det.",,
+116,4,09/05/2023 13.34,Spørgsmål 43 - Delvist uenig,43,4
+117,0,09/05/2023 13.34,"Du har svaret at du er: Delvist uenig. 
+Det ser ud til, at du var i stand til at deltage i sociale aktiviteter, så ofte du ville, men du foretrak at bruge tid alene.",,
+118,4,09/05/2023 13.34,Spørgsmål 44 - Delvist uenig,44,4
+119,0,09/05/2023 13.34,"Du har svaret at du er: Delvist uenig. 
+Baseret på dit svar tyder det på, at du har formået at bevare dine sociale forbindelser og deltage i sociale arrangementer.",,
+120,0,09/05/2023 13.34,"Her er noget hjælp til det næste spørgsmål: For eksempel at skulle acceptere hjælp fra andre i mange situationer, fik mig til at føle mig ubrugelig og dum",,
+121,4,09/05/2023 13.35,Spørgsmål 45 - Delvist uenig,45,4
+122,0,09/05/2023 13.35,"Du har svaret at du er: Delvist uenig. 
+Dette tyder på, at selvom slagtilfældet påvirkede dine evner, var du i stand til at genvinde din tillid til dig selv og din evne til at udføre daglige aktiviteter.",,
+123,4,09/05/2023 13.35,Spørgsmål 46 - Delvist enig,46,2
+124,0,09/05/2023 13.35,"Du har svaret at du er: Delvist enig. 
+Baseret på dit svar ser det ud til, at maden ikke smagte så godt, som den plejede, og at du var mindre interesseret i at spise.",,
+125,4,09/05/2023 13.35,Spørgsmål 47 - Helt uenig,47,5
+126,0,09/05/2023 13.35,"Du har svaret at du er: Helt uenig. 
+Dette tyder på, at du følte dig energisk og levende det meste af tiden.",,
+127,4,09/05/2023 13.35,Spørgsmål 48 - Helt enig,48,1
+128,0,09/05/2023 13.35,"Du har svaret at du er: Helt enig. 
+Dette tyder på, at du var nødt til at hvile ofte i løbet af dagen på grund af udmattelse eller andre fysiske begrænsninger.",,
+129,0,09/05/2023 13.35,"Her er noget hjælp til det næste spørgsmål: Jeg havde f.eks. planlagt at slå min græsplæne, men jeg var nødt til at stoppe efter et par minutter og lade den stå til en anden dag",,
+130,4,09/05/2023 13.35,Spørgsmål 49 - Helt enig,49,1
+131,0,09/05/2023 13.35,"Du har svaret at du er: Helt enig. 
+Dit svar tyder på, at du har oplevet betydelig udmattelse og træthed.",,
+132,0,09/05/2023 13.35,"Tillykke du har gennemført spørgeskemaet. Tak for din tid!
+Du kan nu se dine svar ved at skrive på 'Se alle svar'",,
