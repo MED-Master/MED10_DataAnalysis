@@ -32,7 +32,7 @@ SSQOL_only_questions['duration_seconds'] = SSQOL_only_questions.groupby('user_id
 SSQOL_only_questions['duration_seconds'] = SSQOL_only_questions['duration_seconds'].fillna(0)
 # Calculate the cumulative sum of the duration_seconds for each user
 SSQOL_only_questions['Cumulative_duration_seconds'] = SSQOL_only_questions.groupby('user_id')['duration_seconds'].cumsum()
-
+SSQOL_only_questions.reset_index(drop=True, inplace=True)
 # Calculates rushing i.g. seconds-per-item(SPI)
 def rushing(row):
     if row['question'] > 1:
@@ -55,11 +55,12 @@ SSQOL_only_questions['condition_number'] = SSQOL_only_questions.apply(lambda row
 #add column rushing
 SSQOL_only_questions['seconds-per-item'] = SSQOL_only_questions.apply(lambda row: rushing(row), axis=1)
 
+
 # Custom color palette
 customPalette = ['#630C3A', '#39C8C6', '#D3500C']
 # Plot the rushing
 rushingPlot = sns.lineplot(x='question', y='seconds-per-item', hue='user_id', data=SSQOL_only_questions, legend=True)
-plt.xlabel('Question')
+plt.xlabel('SSQOL Question')
 plt.ylabel('Seconds per item')
 plt.legend(labels=['P1', 'P3', 'P4'])
 plt.savefig('rushingPlot.png')
@@ -81,7 +82,7 @@ plt.show()
 answerDistributionBoxplot = sns.boxplot(data=SSQOL_only_questions, x='answer', y="condition", orient='h')
 answerDistributionSwarnPlot = sns.swarmplot(data=SSQOL_only_questions, x='answer', y="condition", orient='h', color='black', size=5, alpha=0.5)
 plt.title('Distribution of Answers by Condition')
-plt.xlabel('Answer')
+plt.xlabel('SSQOL Answer')
 plt.ylabel('Condition')
 plt.savefig('answerDistributionPrConditionBoxplot.png')
 plt.show()
@@ -103,7 +104,7 @@ plt.show()
 SSQOL_without3 = SSQOL_only_questions.loc[SSQOL['user_id'] != 3]
 
 # t-test for reflective and example question answers
-grouped = SSQOL_only_questions.groupby('condition')['answer']
+grouped = SSQOL_without3.groupby('condition')['answer']
 reflectiveQuestions = grouped.get_group('R')
 exampleQuestions = grouped.get_group('E')
 
@@ -113,8 +114,8 @@ exampleQuestions = grouped.get_group('E')
 print("variance reflective questions: ", np.var(reflectiveQuestions))
 print("variance example questions: ", np.var(exampleQuestions))
 # mean  and standard diviation
-print("reflective questions mean:" ,np.mean(reflectiveQuestions), ",standard diviation : ", np.std(reflectiveQuestions))
-print("example questions mean:" ,np.mean(exampleQuestions), ",standard diviation : ", np.std(exampleQuestions))
+print("reflective questions mean:" ,np.mean(reflectiveQuestions), ",standard deviation : ", np.std(reflectiveQuestions))
+print("example mean:" ,np.mean(exampleQuestions), ",standard deviation : ", np.std(exampleQuestions))
 
 t_statistic, p_value = stats.ttest_ind(reflectiveQuestions, exampleQuestions)
 print("t-statistic = ", t_statistic)
@@ -128,10 +129,24 @@ print("SSQOL Scores per participant: ", sumOfAnswersPerUser)
 meanOfAnswersPerUser = SSQOL_only_questions.groupby('user_id')['answer'].mean()
 sdOfAnswersPerUser = SSQOL_only_questions.groupby('user_id')['answer'].std()
 print("SSQOL mean Scores per participant: ", meanOfAnswersPerUser)
-print("SSQOL standard diviation Scores per participant: ", sdOfAnswersPerUser)
+print("SSQOL standard deviation Scores per participant: ", sdOfAnswersPerUser)
 
 # total time per user
 totalTimePerUser = SSQOL_only_questions.groupby('user_id')['Cumulative_duration_minutes'].max()
 print("SSQOL total time per participant: ", totalTimePerUser)
+
+# mean and standard deviation time per item
+meanTimePerItem = SSQOL_only_questions.groupby('user_id')['seconds-per-item'].mean()
+sdTimePerItem = SSQOL_only_questions.groupby('user_id')['seconds-per-item'].std()
+print("SSQOL mean time per item per participant: ", meanTimePerItem)
+print("SSQOL standard deviation time per item per participant: ", sdTimePerItem)
+
+print(SSQOL_only_questions.groupby('user_id')['duration_seconds'].head(5))
+#print second value of duration_seconds
+print('test')
+print('not work', SSQOL_only_questions['duration_seconds'].loc[1])
+
+# SSQOL as excel
+SSQOL_only_questions.to_excel('preprocessedata.xlsx')
 
 #display(SSQOL_only_questions)
