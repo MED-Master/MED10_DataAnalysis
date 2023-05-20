@@ -46,6 +46,7 @@ legend = kdePlot.legend_
 # Change the legend title
 legend.set_title("Conditions")
 plt.xlim(1, 5)
+plt.xticks(range(1, 6))
 plt.savefig('DensityCondition.png')
 plt.show()
 
@@ -55,10 +56,26 @@ Violinplots = sns.violinplot(data=df, x='answer', y='condition', palette=custom_
 plt.xlabel('SSQOL Question')
 plt.ylabel('Condition')
 plt.xlim(1, 5)
+plt.xticks(range(1, 6))
 plt.savefig('ViolinplotsCondition.png')
 plt.show()
 
-
+# Violinplots
+#ViolinplotsPerParticipant = sns.violinplot(data=df, x='user_id', y='condition',  palette=custom_palette, inner='quartile', linewidth=2, hue='condition')
+ViolinplotsPerParticipant = sns.violinplot(data=df, x="user_id", y="answer", hue="condition",
+               split=True, inner="quart", linewidth=2,
+               palette=custom_palette)
+sns.despine(left=True)
+plt.xlabel('Paricipant')
+plt.ylabel('Answers')
+plt.ylim(1, 5)
+# Access the legend object
+legend = kdePlot.legend_
+# Change the legend title
+legend.set_title("Conditions")
+plt.yticks(range(1, 6))
+plt.savefig('ViolinplotsPerParticipant.png')
+plt.show()
 # Plot the time
 #sns.lineplot(x='question', y='Cumulative_duration_minutes', hue='user_id', data=df)
 #ax2 = plt.twinx()
