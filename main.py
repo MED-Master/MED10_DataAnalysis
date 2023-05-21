@@ -56,49 +56,6 @@ SSQOL_only_questions['condition_number'] = SSQOL_only_questions.apply(lambda row
 SSQOL_only_questions['seconds-per-item'] = SSQOL_only_questions.apply(lambda row: rushing(row), axis=1)
 
 
-# Custom color palette
-customPalette = ['#630C3A', '#39C8C6', '#D3500C']
-# Plot the rushing
-rushingPlot = sns.lineplot(x='question', y='seconds-per-item', hue='user_id', data=SSQOL_only_questions, legend=True)
-plt.xlabel('SSQOL Question')
-plt.ylabel('Seconds per item')
-plt.legend(labels=['P1', 'P3', 'P4'])
-plt.savefig('rushingPlot.png')
-plt.show()
-# Plot the time
-sns.lineplot(x='question', y='Cumulative_duration_minutes', hue='user_id', data=SSQOL_only_questions)
-#ax2 = plt.twinx()
-#sns.lineplot(x='question', y='duration_seconds', hue='user_id', data=SSQOL_only_questions, ax=ax2, legend=False
-plt.show()
-
-# Plot answers distribution by condition using histplot
-answerDistributionHistplot = sns.histplot(data=SSQOL_only_questions, x='answer', hue='condition', bins=5, multiple='stack', kde=True)
-plt.title('Distribution of Answers by Condition')
-plt.xlabel('Answer')
-plt.ylabel('Count')
-plt.show()
-
-# Plot answers distribution by condition using boxplot
-answerDistributionBoxplot = sns.boxplot(data=SSQOL_only_questions, x='answer', y="condition", orient='h')
-answerDistributionSwarnPlot = sns.swarmplot(data=SSQOL_only_questions, x='answer', y="condition", orient='h', color='black', size=5, alpha=0.5)
-plt.title('Distribution of Answers by Condition')
-plt.xlabel('SSQOL Answer')
-plt.ylabel('Condition')
-plt.savefig('answerDistributionPrConditionBoxplot.png')
-plt.show()
-
-# Plot answers per user id
-answerDistributionBoxplot = sns.boxplot(data=SSQOL_only_questions, x='answer', y="user_id", orient='h')
-answerDistributionSwarnPlot = sns.swarmplot(data=SSQOL_only_questions, x='answer', y="user_id", orient='h', color='black', size=5, alpha=0.5)
-plt.title('Distribution of Answers by Paricipant')
-plt.xlabel('SSQOL Answer')
-plt.ylabel('Participant')
-plt.savefig('answerDistributionBoxplot.png')
-plt.show()
-
-# 2nd plot for answers per user id
-sns.lineplot(x='question', y='answer', hue='user_id', data=SSQOL_only_questions)
-plt.show()
 
 # filter out user 3
 SSQOL_without3 = SSQOL_only_questions.loc[SSQOL['user_id'] != 3]
@@ -148,5 +105,8 @@ print('not work', SSQOL_only_questions['duration_seconds'].loc[1])
 
 # SSQOL as excel
 SSQOL_only_questions.to_excel('preprocessedata.xlsx')
+
+# descriptive statistics of SSQOL per user and condition
+print(SSQOL_only_questions.groupby(['user_id', 'condition'])['answer'].describe())
 
 #display(SSQOL_only_questions)
