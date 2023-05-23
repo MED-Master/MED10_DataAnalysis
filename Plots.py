@@ -23,7 +23,7 @@ legend = rushingPlot.legend_
 legend.set_title("Participants")
 plt.xlabel('SSQOL Question')
 plt.ylabel('Seconds per item')
-plt.savefig('rushingPlot.png')
+plt.savefig('rushingPlot.png', dpi=1300)
 plt.show()
 
 # Power law of learning
@@ -66,15 +66,15 @@ ViolinplotsPerParticipant = sns.violinplot(data=df, x="user_id", y="answer", hue
                split=True, inner="quart", linewidth=2,
                palette=custom_palette)
 sns.despine(left=True)
-plt.xlabel('Paricipant')
+plt.xlabel('Participant')
 plt.ylabel('Answers')
 plt.ylim(1, 5)
 # Access the legend object
-legend = kdePlot.legend_
+legend = ViolinplotsPerParticipant.legend_
 # Change the legend title
 legend.set_title("Conditions")
 plt.yticks(range(1, 6))
-plt.savefig('ViolinplotsPerParticipant.png')
+plt.savefig('ViolinplotsPerParticipant.png', dpi=300)
 plt.show()
 # Plot the time
 #sns.lineplot(x='question', y='Cumulative_duration_minutes', hue='user_id', data=df)
