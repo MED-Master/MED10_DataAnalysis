@@ -87,6 +87,7 @@ answerDistributionHistplot = sns.histplot(data=df, x='answer', hue='condition', 
 plt.title('Distribution of Answers by Condition')
 plt.xlabel('Answer')
 plt.ylabel('Count')
+plt.savefig('answerDistributionHistplot.png', dpi=300)
 #plt.show()
 
 # Plot answers distribution by condition using boxplot
@@ -95,7 +96,7 @@ answerDistributionSwarnPlot = sns.swarmplot(data=df, x='answer', y="condition", 
 plt.title('Distribution of Answers by Condition')
 plt.xlabel('SSQOL Answer')
 plt.ylabel('Condition')
-#plt.savefig('answerDistributionPrConditionBoxplot.png')
+plt.savefig('answerDistributionPrConditionBoxplot.png')
 #plt.show()
 
 # Plot answers per user id
@@ -105,8 +106,32 @@ plt.title('Distribution of Answers by Paricipant')
 plt.xlabel('SSQOL Answer')
 plt.ylabel('Participant')
 plt.savefig('answerDistributionBoxplot.png')
-#plt.show()
+plt.show()
 
-# 2nd plot for answers per user id
-#sns.lineplot(x='question', y='answer', hue='user_id', data=df)
-#plt.show()
+# Plots for the MEDx poster
+sns.set_style("ticks")
+ViolinplotsPerParticipantPoster = sns.violinplot(data=df, x="user_id", y="answer", hue="condition",
+               split=True, inner="quart", linewidth=2,
+               palette=custom_palette)
+#sns.despine(left=True)
+plt.xlabel('Participant no.')
+plt.ylabel('Likert-scale answer frequency')
+plt.ylim(1, 5)
+# Access the legend object
+legend = ViolinplotsPerParticipantPoster.legend_
+# Change the legend title
+legend.set_title("Conditions")
+plt.yticks(range(1, 6))
+plt.savefig('ViolinplotsPerParticipantPoster.png', dpi=300)
+plt.show()
+
+# Plot the rushing
+rushingPlotPoster = sns.lineplot(x='question', y='seconds-per-item', hue='user_id', data=dfrush, legend=True, palette=custom_palette)
+# Access the legend object
+legend = rushingPlotPoster.legend_
+# Change the legend title
+legend.set_title("Participants")
+plt.xlabel('SS-QOL questions (1-49)')
+plt.ylabel('Time per question (s)')
+plt.savefig('rushingPlotPoster.png', dpi=300)
+plt.show()
