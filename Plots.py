@@ -125,13 +125,38 @@ plt.yticks(range(1, 6))
 plt.savefig('ViolinplotsPerParticipantPoster.png', dpi=300)
 plt.show()
 
+
+
 # Plot the rushing
 rushingPlotPoster = sns.lineplot(x='question', y='seconds-per-item', hue='user_id', data=dfrush, legend=True, palette=custom_palette)
 # Access the legend object
-legend = rushingPlotPoster.legend_
+legend = rushingPlotPoster.get_legend()
+legend.legendPatch.set_facecolor('#F3F6F9')
 # Change the legend title
 legend.set_title("Participants")
+#change the background color
+#rushingPlotPoster.set_facecolor("#F3F6F9")
+#change the color of the legend
+legend.get_frame().set_facecolor('#F3F6F9')
 plt.xlabel('SS-QOL questions (1-49)')
 plt.ylabel('Time per question (s)')
 plt.savefig('rushingPlotPoster.png', dpi=300)
+plt.show()
+
+
+sns.set(style="white")
+plt.rcParams["axes.facecolor"] = "none"  # Set axes background color to transparent
+plt.rcParams["figure.facecolor"] = "none"  # Set figure background color to transparent
+
+# Create your Seaborn plot
+
+sns.lineplot(x='question', y='seconds-per-item', hue='user_id', data=dfrush, legend=True, palette=custom_palette)
+fig = plt.gcf()
+ax = plt.gca()
+
+legend = ax.get_legend()
+legend.set_title("Participants")
+plt.xlabel('SS-QOL questions (1-49)')
+plt.ylabel('Time per question (s)')
+plt.savefig('rushingPlotPPT.png', dpi=300, transparent=True)
 plt.show()
