@@ -3,6 +3,8 @@ from IPython.display import display
 import datetime
 import numpy as np
 import matplotlib.pyplot as plt
+from matplotlib.patches import Rectangle
+from matplotlib.patches import FancyBboxPatch
 import seaborn as sns
 import scipy.stats as stats
 
@@ -16,147 +18,41 @@ custom_palette = sns.color_palette(['#569FE6', '#f9ba55', 'black'])
 
 # Plot the rushing
 dfrush = df[df['seconds-per-item'] !=0]
+user_id_mapping = {1: 2, 3: 6, 4: 4}
+
+# Apply the mapping to the 'user_id' column
+dfrush['user_id'] = dfrush['user_id'].map(user_id_mapping)
+print(dfrush)
 rushingPlot = sns.lineplot(x='question', y='seconds-per-item', hue='user_id', data=dfrush, legend=True, palette=custom_palette)
 # Access the legend object
 legend = rushingPlot.legend_
 # Change the legend title
 legend.set_title("Participants")
+
+# Draw the square (rectangle)
+rectangle = Rectangle((33, 25), 10, 35,
+                       fill=True,
+                       color='#fbf5e7', # Use 'lightorange' for light orange color
+                       linewidth=0.8, # This is already set to a thinner line
+                       alpha=0.8) # Set the alpha value for transparency
+plt.gca().add_patch(rectangle)
+
+# Add text label over the square
+plt.text(38, 65, 'Problematic questions', fontsize=10, ha='center', va='center')
+
 plt.xlabel('SSQOL Question')
 plt.ylabel('Seconds per item')
+# Plot the vertical lines
+plt.plot([11, 11], [10, 140], '--', color="black", linewidth=0.8, label='Dotted line') # 'k-' specifies black line
+plt.plot([25, 25], [10, 140], '--', color="black", linewidth=0.8, label='Dotted line')
+
+# Add text labels for the lines
+plt.text(12, 140, "'Evner' prompt", fontsize=10, ha='center', rotation=-10) # ha='center' centers the text horizontally
+plt.text(25, 140, 'Mid-questionnaire', fontsize=10, ha='center', rotation=-10)
+
+# Set axis limits if necessary
+plt.xlim([0, 50])
+plt.ylim([0, 165])
+
 plt.savefig('rushingPlot.png', dpi=1300)
-plt.show()
-
-# Power law of learning
-powerLawPlot = sns.lineplot(x='question', y='Power_Law_Of_Learning', hue='user_id', data=df, legend=True, palette=custom_palette)
-plt.xlabel('SSQOL Question')
-plt.ylabel('Time completion(seconds)')
-# Access the legend object
-legend = powerLawPlot.legend_
-# Change the legend title
-legend.set_title("Participants")
-plt.savefig('learningPlot.png')
-plt.show()
-
-# kdeplot
-kdePlot = sns.kdeplot(data=df, x='answer', hue='condition', palette=custom_palette, fill=True, alpha=.3, linewidth=0)
-plt.xlabel('SSQOL Question')
-plt.ylabel('Density')
-# Access the legend object
-legend = kdePlot.legend_
-# Change the legend title
-legend.set_title("Conditions")
-plt.xlim(1, 5)
-plt.xticks(range(1, 6))
-plt.savefig('DensityCondition.png')
-plt.show()
-
-
-# Violinplots
-Violinplots = sns.violinplot(data=df, x='answer', y='condition', palette=custom_palette, inner='quartile')
-plt.xlabel('SSQOL Question')
-plt.ylabel('Condition')
-plt.xlim(1, 5)
-plt.xticks(range(1, 6))
-plt.savefig('ViolinplotsCondition.png')
-plt.show()
-
-# Violinplots
-#ViolinplotsPerParticipant = sns.violinplot(data=df, x='user_id', y='condition',  palette=custom_palette, inner='quartile', linewidth=2, hue='condition')
-ViolinplotsPerParticipant = sns.violinplot(data=df, x="user_id", y="answer", hue="condition",
-               split=True, inner="quart", linewidth=2,
-               palette=custom_palette)
-sns.despine(left=True)
-plt.xlabel('Participant')
-plt.ylabel('Answers')
-plt.ylim(1, 5)
-# Access the legend object
-legend = ViolinplotsPerParticipant.legend_
-# Change the legend title
-legend.set_title("Conditions")
-plt.yticks(range(1, 6))
-plt.savefig('ViolinplotsPerParticipant.png', dpi=300)
-plt.show()
-# Plot the time
-#sns.lineplot(x='question', y='Cumulative_duration_minutes', hue='user_id', data=df)
-#ax2 = plt.twinx()
-#sns.lineplot(x='question', y='duration_seconds', hue='user_id', data=df, ax=ax2, legend=False
-#plt.show()
-
-# Plot answers distribution by condition using histplot
-answerDistributionHistplot = sns.histplot(data=df, x='answer', hue='condition', bins=5, multiple='stack', kde=True)
-plt.title('Distribution of Answers by Condition')
-plt.xlabel('Answer')
-plt.ylabel('Count')
-plt.savefig('answerDistributionHistplot.png', dpi=300)
-#plt.show()
-
-# Plot answers distribution by condition using boxplot
-answerDistributionBoxplot = sns.boxplot(data=df, x='answer', y="condition", orient='h')
-answerDistributionSwarnPlot = sns.swarmplot(data=df, x='answer', y="condition", orient='h', color='black', size=5, alpha=0.5)
-plt.title('Distribution of Answers by Condition')
-plt.xlabel('SSQOL Answer')
-plt.ylabel('Condition')
-plt.savefig('answerDistributionPrConditionBoxplot.png')
-#plt.show()
-
-# Plot answers per user id
-answerDistributionBoxplot = sns.boxplot(data=df, x='answer', y="user_id", orient='h')
-answerDistributionSwarnPlot = sns.swarmplot(data=df, x='answer', y="user_id", orient='h', color='black', size=5, alpha=0.5)
-plt.title('Distribution of Answers by Paricipant')
-plt.xlabel('SSQOL Answer')
-plt.ylabel('Participant')
-plt.savefig('answerDistributionBoxplot.png')
-plt.show()
-
-# Plots for the MEDx poster
-sns.set_style("ticks")
-ViolinplotsPerParticipantPoster = sns.violinplot(data=df, x="user_id", y="answer", hue="condition",
-               split=True, inner="quart", linewidth=2,
-               palette=custom_palette)
-#sns.despine(left=True)
-plt.xlabel('Participant no.')
-plt.ylabel('Likert-scale answer frequency')
-plt.ylim(1, 5)
-# Access the legend object
-legend = ViolinplotsPerParticipantPoster.legend_
-# Change the legend title
-legend.set_title("Conditions")
-plt.yticks(range(1, 6))
-plt.savefig('ViolinplotsPerParticipantPoster.png', dpi=300)
-plt.show()
-
-
-
-# Plot the rushing
-rushingPlotPoster = sns.lineplot(x='question', y='seconds-per-item', hue='user_id', data=dfrush, legend=True, palette=custom_palette)
-# Access the legend object
-legend = rushingPlotPoster.get_legend()
-legend.legendPatch.set_facecolor('#F3F6F9')
-# Change the legend title
-legend.set_title("Participants")
-#change the background color
-#rushingPlotPoster.set_facecolor("#F3F6F9")
-#change the color of the legend
-legend.get_frame().set_facecolor('#F3F6F9')
-plt.xlabel('SS-QOL questions (1-49)')
-plt.ylabel('Time per question (s)')
-plt.savefig('rushingPlotPoster.png', dpi=300)
-plt.show()
-
-
-sns.set(style="white")
-plt.rcParams["axes.facecolor"] = "none"  # Set axes background color to transparent
-plt.rcParams["figure.facecolor"] = "none"  # Set figure background color to transparent
-
-# Create your Seaborn plot
-
-sns.lineplot(x='question', y='seconds-per-item', hue='user_id', data=dfrush, legend=True, palette=custom_palette)
-fig = plt.gcf()
-ax = plt.gca()
-
-legend = ax.get_legend()
-legend.set_title("Participants")
-plt.xlabel('SS-QOL questions (1-49)')
-plt.ylabel('Time per question (s)')
-plt.savefig('rushingPlotPPT.png', dpi=300, transparent=True)
 plt.show()
