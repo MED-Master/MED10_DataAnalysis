@@ -51,8 +51,8 @@ plt.text(12, 140, "'Evner' prompt", fontsize=10, ha='center', rotation=-10) # ha
 plt.text(25, 140, 'Mid-questionnaire', fontsize=10, ha='center', rotation=-10)
 
 # Set axis limits if necessary
-plt.xlim([0, 50])
-plt.ylim([0, 165])
+#plt.xlim([0, 50])
+#plt.ylim([0, 165])
 
 plt.savefig('rushingPlot.png', dpi=1300)
 plt.show()
